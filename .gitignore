@@ -1,0 +1,10 @@
+**/node_modules
+npm-debug-log*
+.DS_Store
+.idea
+express-app/public/images/
+express-app/public/javascripts/
+mongoose/public/images/
+mongoose/public/javascripts/
+monk/public/images/
+monk/public/javascripts/

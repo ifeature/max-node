@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  - var copyright = 'Artem Nakhodkin';
+  if condition
+    small Condition is true
+    p= copyright
+
+  - var arr = [1, 2, 3, 4, 5]
+    each val in arr
+      p= val
